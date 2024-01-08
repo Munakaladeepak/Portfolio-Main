@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1506383631675-0b110111327b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRhcmslMjBjaXR5fGVufDB8fDB8fHww);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Rubik";
+    background-attachment: fixed;
+  
+    font-family: 'Poppins', sans-serif;
+}
+#logo{
+    width: 90px;
+}
+#Nav{
+background: rgba(255, 255, 255, 0);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.9px);
+-webkit-backdrop-filter: blur(2.9px);
+}
+
+#sec-1{
+    height:70vh;
+    background: rgba(0, 0, 0, 0);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+backdrop-filter: blur(3.9px);
+-webkit-backdrop-filter: blur(3.9px);
+}
+#sec-2{
+    /* height:100vh; */
+    background-color:rgba(255, 255, 255, 0.549);
+    font-family: 'Poppins', sans-serif;
+
+}
+#info_profile{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    overflow:hidden;
+    background-image:url(./img/md_deepak_4323-20240104-0001.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:900;
+}
+#info_profile_nav{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-image: url(./img/md_deepak_4323-20240104-0002.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#sec-1-content{
+    z-index: 900;
+    margin-bottom: 20px;
+}
+#About_ME_IMG{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#About_ME_CONTENT{
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 54px 55px, rgba(0, 0, 0, 0.608) 0px -12px 30px, rgba(0, 0, 0, 0.686) 0px 4px 6px, rgba(0, 0, 0, 0.737) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#sec-3{
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+}
+#sec-3-heading{
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+}
+#sec-4{
+    /* height:70vh; */
+    padding:20px 20px;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    background-color:rgba(255, 255, 255, 0.549);
+    
+}
+#progress-bar{
+    width:95%;
+}
+#progress-bar-css{
+    width:87%;
+}
+#progress-bar-js{
+    width:65%;
+}
+#progress-bar-frame-work{
+    width:85%;
+}
+#progress-bar-DB{
+    width:60%;
+}
+#progress-bar-PHP{
+    width:75%;
+}
+#progress-bar-github{
+    width:85%;
+}
+#progress-bar-netlify{
+    width:75%;
+}
